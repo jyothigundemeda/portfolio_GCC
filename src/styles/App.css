@@ -1,0 +1,147 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8c6d0; /* Light pink background color */
+  }
+  
+  /* Container for the entire app */
+  .App {
+    text-align: center;
+  }
+  
+  /* Title styles */
+  .portfolio-title {
+    font-size: 2rem;
+    color: #333;
+    margin: 1rem 0;
+  }
+  
+  /* Intro box styling */
+  .intro-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .profile-pic {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .my-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+  }
+  
+  /* Navbar styles */
+  .nav-bar {
+    background-color: #001f3f; /* Navy blue background color */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    color: #fff; /* White text color */
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Hover effect for links */
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Content section styling */
+  .content {
+    padding: 2rem;
+  }
+  
+  /* Section styling */
+  .section {
+    background-color: #fff; /* White background color for sections */
+    color: #333;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  /* Skill bars styling */
+  .skill-bar {
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+   
+  .skill-bar {
+    margin: 20px 0;
+  }
+  
+  .bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .progress {
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+  }
+  
+  .js {
+    background-color: #f0db4f;
+  }
+  
+  .ml {
+    background-color: #66b3ff;
+  }
+  
+  .mongodb {
+    background-color: #b33d70;
+  }
+  
+  
+  .skill-bar p {
+    width: 100px; /* Adjust width as needed */
+    text-align: left;
+  }
+  
+  .bar {
+    flex: 1;
+    background-color: #ddd; /* Light gray background color for bars */
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 1rem;
+  }
+  
+  .progress {
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .c { width: 70%; background-color: #007bff; } /* Blue for C */
+  .python { width: 80%; background-color: #306998; } /* Darker blue for Python */
+  .html { width: 90%; background-color: #e34c26; } /* Red for HTML */
+  .css { width: 80%; background-color: #264de4; } /* Blue for CSS */
+  
+  /* Link styles */
+  a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
