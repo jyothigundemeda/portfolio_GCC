@@ -22,7 +22,7 @@ function App() {
         <a href="#intrests" className="nav-link">Intrests</a>
         <a href="#certificates" className="nav-link">Certificates</a>
         <a href="#languages" className="nav-link">Languages</a>
-        <a href="#contact" className="nav-link">Activites</a>
+        <a href="#contact" className="nav-link">Contactpot</a>
       </nav>
       <div className="content">
         <section id="contact" className="section">
